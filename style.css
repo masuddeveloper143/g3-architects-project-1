@@ -17,10 +17,29 @@
     font-style: normal;
 }
 
+.nav-header {
+    width: 1440px;
+    margin: 0 auto;
+}
 
 
 
+.navbar {
+    justify-content: space-between;
+}
 
 .flex {
     display: flex;
+}
+
+
+ul li {
+    list-style: none;
+
+}
+
+
+
+ul {
+    gap: 1rem;
 }
