@@ -159,17 +159,25 @@ main {
     max-width: 537px;
 }
 
-.s1 {
+.features-text p {
     color: #727272;
+    line-height: 1.5;
 }
 
 .s1 {
-    color: black;
+    color: #727272;
     font-weight: 500;
 }
 
-.s1 {
-    color: #727272;
+.s2 {
+    color: black;
+    font-weight: 700;
+
+}
+
+.s3 {
+    color: #FF900E;
+    font-weight: 700;
 }
 
 
