@@ -104,9 +104,21 @@ p {
 
 /* main section srtat  */
 
+main {
+    max-width: 1440px;
+    margin: 5rem auto;
+
+}
+
+.features {
+    width: 100%;
+}
+
 .containar-image4 {
+    width: 50%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
 }
 
 /* main section srtat  */
