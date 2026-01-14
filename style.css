@@ -139,9 +139,7 @@ main {
 /* main section srtat  */
 
 @media screen and (max-width: 576px) {
-
-    .navbar,
-    {
-    flex-direction: column;
-}
+    .navbar {
+        flex-direction: column;
+    }
 }
