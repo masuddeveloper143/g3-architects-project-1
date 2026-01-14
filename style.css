@@ -64,6 +64,12 @@ ul {
     border-radius: 8px;
     border: none;
     color: white;
+    text-align: center;
+    font-size: 700;
+}
+
+.btn2 {
+    padding: 16px 25px;
 }
 
 
