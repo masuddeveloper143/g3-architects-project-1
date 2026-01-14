@@ -38,6 +38,10 @@
     display: flex;
 }
 
+.flex2 {
+    display: none;
+}
+
 
 ul li {
     list-style: none;
@@ -139,7 +143,12 @@ main {
 /* main section srtat  */
 
 @media screen and (max-width: 576px) {
-    .navbar {
+    .flex {
         flex-direction: column;
+        gap: 5px;
+    }
+
+    ul {
+        display: none;
     }
 }
