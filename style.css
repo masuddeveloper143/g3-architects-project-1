@@ -18,13 +18,14 @@
 }
 
 .header {
-    max-width: 1440px;
-    margin: auto;
+    background: rgba(255, 144, 14, 0.1);
 }
 
 
 
 .navbar {
+    max-width: 1440px;
+    margin: 0 auto;
     height: 60px;
     justify-content: space-between;
     align-items: center;
@@ -54,14 +55,16 @@ ul {
 
 .btn1 {
     padding: 20px 25px;
-    background-color: tomato;
+    background-color: #FF900E;
     border-radius: 8px;
     border: none;
+    color: white;
 }
 
 
 .brand {
-
+    max-width: 1440px;
+    margin: 0 auto;
     margin-top: 6rem;
 }
 
@@ -72,6 +75,18 @@ ul {
     margin: 0 auto;
     margin-bottom: 1rem;
 
+
+}
+
+.brand-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.brand-content,
+h1,
+p {
+    margin-bottom: 1rem;
 }
 
 
@@ -83,4 +98,15 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-bottom: 2rem;
 }
+
+
+/* main section srtat  */
+
+.containar-image4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* main section srtat  */
