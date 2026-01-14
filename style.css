@@ -105,8 +105,12 @@ ul {
 h1,
 p {
     margin-bottom: 1rem;
+    line-height: 1.5;
 }
 
+.brand-content p {
+    color: #727272;
+}
 
 
 .heroimage {
@@ -166,6 +170,7 @@ main {
 
 .features-text h1 {
     font-size: clamp(2rem, 6vw, 4.5rem);
+    line-height: 1.1;
 }
 
 .s1 {
@@ -213,6 +218,17 @@ main {
     .features,
     .containar-image4 {
         flex-direction: column;
+
     }
+
+    .containar-image4 {
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .features {
+        gap: 4rem;
+    }
+
 
 }
