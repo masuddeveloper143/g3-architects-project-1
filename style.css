@@ -25,7 +25,6 @@
 
 
 .navbar {
-    width: 100%;
     height: 60px;
     justify-content: space-between;
     align-items: center;
@@ -62,11 +61,19 @@ ul {
 
 
 .brand {
+
     margin: 6rem;
 }
 
 .brand-content {
+    width: 100%;
     max-width: 850px;
     text-align: center;
+    margin: 0 auto;
 
+}
+
+.heroimage {
+    width: 100%;
+    height: auto;
 }
