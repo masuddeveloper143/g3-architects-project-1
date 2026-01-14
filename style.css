@@ -150,7 +150,14 @@ main {
 }
 
 
+.features {
+    align-items: center;
+    gap: 1rem;
+}
 
+.features-text {
+    max-width: 537px;
+}
 
 /* main section srtat  */
 
