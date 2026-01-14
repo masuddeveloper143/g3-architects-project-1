@@ -144,11 +144,15 @@ main {
 
 @media screen and (max-width: 576px) {
     .flex {
-        flex-direction: column;
+        flex-direction: row;
         gap: 5px;
     }
 
-    ul {
+    ul li {
         display: none;
+    }
+
+    .flex2 {
+        display: block;
     }
 }
