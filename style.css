@@ -37,7 +37,8 @@
 }
 
 .g3 {
-    font-size: 2rem;
+    font-size: 2.2rem;
+    color: tomato;
 }
 
 .flex {
@@ -75,7 +76,7 @@ ul {
 }
 
 .btn2 {
-    padding: 16px 25px;
+    padding: 10px 25px;
 }
 
 
@@ -166,5 +167,13 @@ main {
 
     .flex2 {
         display: block;
+        margin-right: 0.7rem;
     }
+
+    .brand {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
 }
