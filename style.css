@@ -152,12 +152,26 @@ main {
 
 .features {
     align-items: center;
-    gap: 1rem;
+    gap: 4rem;
 }
 
 .features-text {
     max-width: 537px;
 }
+
+.s1 {
+    color: #727272;
+}
+
+.s1 {
+    color: black;
+    font-weight: 500;
+}
+
+.s1 {
+    color: #727272;
+}
+
 
 /* main section srtat  */
 
