@@ -52,3 +52,10 @@ ul li a {
 ul {
     gap: 3rem;
 }
+
+.btn1 {
+    padding: 20px 25px;
+    background-color: tomato;
+    border-radius: 8px;
+    border: none;
+}
