@@ -292,6 +292,18 @@ main {
 
 }
 
+.facts {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.facts-crad-box {
+    max-width: 241.83px;
+    min-height: 241.83px;
+    border: 1px solid red;
+}
+
 
 
 
