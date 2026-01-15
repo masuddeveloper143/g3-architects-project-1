@@ -332,6 +332,17 @@ main {
     margin: 0;
 }
 
+.footer {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.amazon {
+    width: 100%;
+    display: flex;
+}
+
+
 
 
 
