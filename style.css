@@ -196,6 +196,7 @@ main {
 
 
 .crad {
+    display: flex;
     max-width: 1440px;
     margin: auto;
     padding: 4rem 16px;
@@ -205,6 +206,7 @@ main {
 .crad-container {
     width: 100%;
     max-width: 586px;
+
 }
 
 .crad-container p {
@@ -224,6 +226,7 @@ main {
     border-color: #727272;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 .crad-box p {
@@ -233,6 +236,10 @@ main {
 .crad-box h1 {
     font-size: clamp(1.2rem, 6vw, 1.2rem);
 }
+
+.crad-images {}
+
+
 
 
 
