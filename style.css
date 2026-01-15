@@ -298,16 +298,31 @@ main {
     padding: 0 16px;
 }
 
-.facts-crad-box {
-    max-width: 241px;
-    min-height: 241px;
-    border: 1px solid red;
+.facts-p1 {
+    max-width: 542px;
 }
 
 .facts-crad-container {
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.5rem;
+
 }
+
+.facts-crad-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 241px;
+    height: 241px;
+    border: 1px solid red;
+    margin-top: 3rem;
+}
+
+
 
 
 
