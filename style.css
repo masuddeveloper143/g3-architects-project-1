@@ -197,8 +197,19 @@ main {
 
 .crad {
     max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 16px;
+    margin: auto;
+    padding: 4rem 16px;
+
+}
+
+.crad-container {
+    width: 100%;
+    max-width: 586px;
+}
+
+.crad-container p {
+
+    color: #727272;
 }
 
 .crad-titel {
@@ -213,11 +224,15 @@ main {
     border-color: #727272;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     padding: 1rem;
-
-
-
 }
 
+.crad-box p {
+    color: #727272;
+}
+
+.crad-box h1 {
+    font-size: clamp(1.2rem, 6vw, 1.2rem);
+}
 
 
 
