@@ -268,11 +268,23 @@ main {
 
 }
 
+.year {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+
+}
+
+.ex {
+    color: white;
+}
 
 .crad-images-btn {
     padding: 20px 25px;
     background-color: #FF900E;
+    margin-right: 100px;
 }
+
 
 
 /* main section srtat  */
