@@ -17,6 +17,10 @@
     font-style: normal;
 }
 
+body {
+    background-color: #FFFFFF;
+}
+
 .header {
     width: 100%;
     background: rgba(255, 144, 14, 0.1);
@@ -191,7 +195,28 @@ main {
 
 
 
-.crad {}
+.crad {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.crad-titel {
+    border-left: 3px solid orange;
+    padding-left: 1rem;
+
+}
+
+.crad-box {
+    max-width: 586px;
+    min-height: 171px;
+    border-color: #727272;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 1rem;
+
+
+
+}
 
 
 
