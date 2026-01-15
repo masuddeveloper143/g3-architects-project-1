@@ -200,12 +200,16 @@ main {
     max-width: 1440px;
     margin: auto;
     padding: 4rem 16px;
+    gap: 2rem;
 
 }
 
 .crad-container {
+    border: 1px solid red;
     width: 100%;
     max-width: 586px;
+    margin-top: 2rem;
+    padding-bottom: 0;
 
 }
 
@@ -226,7 +230,7 @@ main {
     border-color: #727272;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     padding: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .crad-box p {
@@ -237,7 +241,31 @@ main {
     font-size: clamp(1.2rem, 6vw, 1.2rem);
 }
 
-.crad-images {}
+.crad-images {
+    width: 100%;
+    max-width: 800px;
+    min-height: 1059px;
+    border: 1px solid red;
+
+
+
+}
+
+.crad-imagesbx2 {
+    width: 100%;
+    max-width: 708px;
+    min-height: 782px;
+}
+
+.crad-images img {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+
+}
 
 
 
