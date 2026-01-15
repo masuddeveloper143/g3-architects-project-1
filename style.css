@@ -277,7 +277,7 @@ main {
 
 .ex {
     color: white;
-    font-size: 1.5rem;
+    font-size: clamp(0.5rem, 6vw, 1rem);
     font-weight: 500;
 }
 
@@ -344,11 +344,6 @@ main {
         height: auto;
     }
 
-    .crad-imagesbx2,
-    .crad-images-btn {
-        width: 100%;
-        height: auto;
 
-    }
 
 }
