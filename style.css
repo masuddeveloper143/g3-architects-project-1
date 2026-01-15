@@ -282,8 +282,14 @@ main {
 .crad-images-btn {
     padding: 20px 25px;
     background-color: #FF900E;
-    margin-right: 100px;
+    margin-top: -4rem;
+    margin-left: -3rem;
+    border: none;
+
+
 }
+
+
 
 
 
