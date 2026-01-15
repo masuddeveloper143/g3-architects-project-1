@@ -298,9 +298,11 @@ main {
     padding: 0 16px;
 }
 
-.facts-p1 {
+.facts p {
     max-width: 542px;
     color: #727272;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .facts-crad-container {
@@ -322,6 +324,13 @@ main {
     height: 241px;
     border: 1px solid red;
     margin-top: 3rem;
+
+}
+
+.facts-crad-box h1 {
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
 }
 
 
