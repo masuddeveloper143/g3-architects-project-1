@@ -363,19 +363,29 @@ main {
 
 .copyright {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 5rem auto;
     /* padding: 0 16px; */
-     /* display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     background-color: #FFF4E7; */
 }
 
 .copyright-container {
+    width: 100%;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #FFF4E7;
+}
+
+.copyright-container p{
+    margin: 0;
+    font: 1.4rem;
+    font-weight: 400;
+    color: #727272;
+    border-radius: 8px;
 }
 
 
