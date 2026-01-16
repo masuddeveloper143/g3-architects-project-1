@@ -338,6 +338,8 @@ main {
     margin: 0 auto;
 }
 
+
+
 .amazon-container {
     display: flex;
     justify-content: space-between;
@@ -458,5 +460,7 @@ main {
     .facts {
         margin-top: 0;
     }
-
+.amazon-container{
+flex-direction: column;
+}
 }
