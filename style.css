@@ -367,6 +367,14 @@ main {
     padding: 0 16px;
 }
 
+.copyright-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF4E7;
+}
+
+
 
 
 /* main section srtat  */
