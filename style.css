@@ -321,7 +321,8 @@ main {
     text-align: center;
     width: 241px;
     height: 241px;
-    border: 1px solid red;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
     margin-top: 3rem;
 
 }
@@ -338,11 +339,15 @@ main {
 }
 
 .amazon-container {
-
     display: flex;
     justify-content: space-between;
-    border: 3px solid #FF900E;
+    /* border: 3px solid #FF900E; */
     gap: 10px;
+}
+
+.footer-hp {
+    width: 100%;
+    margin: 0 auto;
 }
 
 
@@ -412,6 +417,7 @@ main {
     .facts-crad-container {
         width: 100%;
         flex-direction: column;
+        gap: 5px;
     }
 
     .facts {
