@@ -342,17 +342,24 @@ main {
     display: flex;
     justify-content: space-between;
     /* border: 3px solid #FF900E; */
-    gap: 10px;
+margin-top: 2rem;
+}
+
+.amazon-container img {
+    filter: grayscale(100%);
+    transition: 0.3s;
 }
 
 .footer-hp {
     width: 100%;
+    max-width: 542px;
     margin: 0 auto;
+    text-align: center;
 }
 
-
-
-
+.footer-hp p {
+    color: #727272;
+}
 
 
 
